@@ -1,0 +1,14 @@
+<h1>  Quizz</h1>
+
+
+<h2 class="selection" *ngFor="let a of quiz" 
+    >
+    {{a.name}}   : 
+    <a routerLink="/{{a.name}}" class="btn btn-primary">Choose the {{a.name}} quiz</a>
+</h2>
+<!-- 
+<div class="answer" *ngFor="let a of answers.values" 
+    [ngClass]="{correct: a.correct}">
+    {{a.value}}
+    <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+</div> -->

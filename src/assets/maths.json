@@ -16,5 +16,14 @@
       {"value": "Bonjour", "correct": false},
       {"value": "pi", "correct": false}
     ]
+  },
+  {
+    "label": "What is 5²",
+    "choices": [
+      {"value": "555415", "correct": false},
+      {"value": "25", "correct": true},
+      {"value": "pins", "correct": false},
+      {"value": "p5675i", "correct": false}
+    ]
   }
 ]
