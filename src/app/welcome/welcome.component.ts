@@ -12,7 +12,7 @@ import { QuestionsService} from '../questions.service';
 })
 export class WelcomeComponent implements OnInit {
 
-  private quiz: Quiz [];
+  public quiz: Quiz [];
  
 
   constructor(private route: ActivatedRoute, private questionsService: QuestionsService) { }
