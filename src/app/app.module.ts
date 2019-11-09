@@ -12,6 +12,7 @@ import { ReactiveFormsModule} from '@angular/forms';
 import { ResultsComponent } from './results/results.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { FooterComponent } from './ui/footer/footer.component';
 
 
 const appRoutes: Routes = [
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     QuestionFormComponent,
     ResultsComponent,
     QuestionsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

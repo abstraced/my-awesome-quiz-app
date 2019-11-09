@@ -1,11 +1,21 @@
-<h1>  Quizz</h1>
 
+<div class="container border vertical-center">
+<h1>  The quiz App</h1>
 
-<h2 class="selection" *ngFor="let a of quiz" 
-    >
+ <h3> Select your quiz:</h3>
+
+ <li>
+<ul class="selection" *ngFor="let a of quiz"  >
+    
     {{a.name}}   : 
     <a routerLink="/{{a.name}}" class="btn btn-primary">Choose the {{a.name}} quiz</a>
-</h2>
+ </ul>
+</li>
+
+
+</div>
+
+<app-footer></app-footer>
 <!-- 
 <div class="answer" *ngFor="let a of answers.values" 
     [ngClass]="{correct: a.correct}">
