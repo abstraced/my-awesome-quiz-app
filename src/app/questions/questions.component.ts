@@ -5,7 +5,7 @@ import {switchMap} from 'rxjs/operators';
 
 import { QuestionsService} from '../questions.service';
 import {Quiz, Answers, Choice, Question} from '../quiz.model';
-import { VirtualTimeScheduler } from 'rxjs';
+
 
 
 @Component({

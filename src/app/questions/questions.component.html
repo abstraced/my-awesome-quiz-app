@@ -1,6 +1,8 @@
-<div *ngIf="quiz && !questions" class="spinner-grow text-primary" 
 
- [ngStyle]="{'background-image': 'url(https://fr.wikipedia.org/wiki/Drapeau_de_la_France#/media/Fichier:Flag_of_France.svg)' }">
+
+
+<div class="container" [ngStyle]="{'background-image': 'url(http://whatyoutoo.com/wp-content/uploads/2016/11/Fotolia_74949606_Subscription_XXL-1024x543.jpg)'}">
+<div *ngIf="quiz && !questions" class="spinner-grow text-primary container">
 
     </div>
     
@@ -19,3 +21,5 @@
         </div>
         <app-results *ngIf="showResults"  [answers]="answers"></app-results>
     </div>
+
+</div>

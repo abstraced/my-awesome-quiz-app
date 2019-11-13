@@ -1,4 +1,47 @@
-* {
 
-    margin: auto;
+
+
+.selector {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 17px inset rgba(50,5,255,0.84);
+    border-radius: 40px;
+    background-color: white;
+   
+    
+}
+
+#adj {
+
+    font-size: small;
+
+}
+
+.title {
+    border: 17px inset rgba(50,5,255,0.84);
+    border-radius: 40px;
+    background-color: white;
+   
+   
+}
+
+body {
+
+    text-align: center;
+    background-color: blue;
+}
+
+li {
+
+    border: non;
+}
+.container {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // border:none;
+
 }

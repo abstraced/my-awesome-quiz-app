@@ -1,0 +1,29 @@
+.container {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.quiz {
+   
+    border: 17px inset rgba(50,5,255,0.84);
+    border-radius: 40px;
+    flex-grow: 4;
+    background-color: white;
+    
+
+}
+
+
+@media all  and (max-width: 750px) {
+    .container {
+     
+    }
+    .quiz {
+      
+  }
+  
+  }
